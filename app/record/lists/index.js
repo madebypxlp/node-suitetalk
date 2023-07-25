@@ -5,6 +5,7 @@ const Lists = {
     CustomerAddressbook: require("./customerAddressbook"),
     CustomerAddressbookList: require("./customerAddressbookList"),
     CustomFieldList: require("./customFieldList"),
+    EmployeeRoleList: require("./employeeRoleList"),
     NullFieldList: require("./nullFieldList"),
     SalesOrderItem: require("./salesOrderItem"),
     SalesOrderItemList: require("./salesOrderItemList"),

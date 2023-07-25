@@ -18,6 +18,7 @@ const Types = {
     RecordRef: require("./recordRef"),
     SalesOrder: require("./salesOrder"),
     Vendor: require("./vendor"),
+    Employee: require("./employee"),
     TransferOrder: require("./transferOrder"),
     CreditMemo: require("./creditMemo"),
     InventoryItem: require("./inventoryItem"),

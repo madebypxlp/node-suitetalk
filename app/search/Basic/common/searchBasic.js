@@ -7,6 +7,7 @@ class SearchBasic extends SearchRecord {
     constructor() {
         super();
         this.searchFields = [];
+        this.recType = null
     }
 
     _getAttributes() {
@@ -35,6 +36,10 @@ class SearchBasic extends SearchRecord {
         this.searchFields.forEach((el) => {
             Object.assign(node[type], el.getNode());
         });
+
+        if (this._name === 'CustomRecordSearchBasic' && this.recType) {
+            node[type]["$xml"] = `<platformCommon:recType internalId="${this.recType}"/>`
+        }
 
         return node;
     }

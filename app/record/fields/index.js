@@ -10,7 +10,8 @@ const Fields = {
     StringCustomFieldRef: require("./stringCustomFieldRef"),
     StringRef: require("./stringRef"),
     DateCustomFieldRef: require('./dateCustomFieldRef'),
-    DoubleCustomFieldRef: require('./doubleCustomFieldRef')
+    DoubleCustomFieldRef: require('./doubleCustomFieldRef'),
+    MultiSelectCustomFieldRef: require('./multiSelectCustomFieldRef')
 };
 
 module.exports = Fields;
